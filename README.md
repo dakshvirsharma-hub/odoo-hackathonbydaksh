@@ -120,24 +120,3 @@ StockSense includes an integrated smoke test runner (`scripts/smoke-test.ts`):
 
 ---
 
-## 🗺️ What Works Today vs. Roadmap
-
-| Feature Area | Hackathon Status | Production Roadmap |
-| :--- | :---: | :--- |
-| **Receipts (+Stock)** | **100% Working** | Barcode scanner camera feed integration |
-| **Deliveries (-Stock)** | **100% Working** | Automated batch picking waves |
-| **Stock Adjustments** | **100% Working** | RFID portal bulk cycle count import |
-| **Move Ledger Audit** | **100% Working** | Export to signed PDF / CSV |
-| **Shortage Detection** | **100% Working** | Automated vendor purchase order trigger |
-| **Multi-Warehouse** | **100% Working** | Cross-warehouse inter-company billing |
-
----
-
-## 🏆 Hackathon Pacing & Discipline
-
-Developed under strict 8-hour pacing guidelines with single-branch git discipline:
-- `Milestone 1`: Next.js 15, Prisma SQLite schema, stock engine, realistic seed data.
-- `Milestone 2`: Operations, Products CRUD, Stock adjustments, and Dashboard KPI APIs.
-- `Milestone 3`: Enterprise AppShell, Real-time Dashboard, Operations (List/Kanban), and Stock Table.
-- `Milestone 4`: Automated Smoke Test suite (`npm test`), 0 lint warnings, hardened shortage guards.
-- `Milestone 5`: Code freeze, documentation, and evaluator submission.
